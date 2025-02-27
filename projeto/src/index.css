@@ -62,7 +62,7 @@ body {
 }
 
 .divbanner {
-  margin-top: 15px;
+  margin-top: 3%;
   background-color: #341671;
   position: relative;
   width: 83.5%;
@@ -79,7 +79,6 @@ body {
   height: 200px;
   border-radius: 10px;
 }
-
 .textobanner {
   width: 50%;
   margin-left: 46%;
@@ -97,8 +96,43 @@ body {
   line-height: 30px;
   font-size: 20px;
 }
+.divbannertwo {
+  margin-top: 3%;
+  flex-direction: row;
+  justify-content: start;
+  display: flex;
+  background-color: #341671;
+  position: relative;
+  width: 83.5%;
+  height: auto;
+  margin-left: 11.5%;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  padding-bottom: 3%;
+}
 
+.textobannertwo {
+  padding-top: 2%;
+  display: inline;
+  width: 88%;
+  margin-left: 6.5%;
+  margin-top: 0px;
+  text-align: justify;
+  word-wrap: normal;
+}
+.textotwo {
+  display: inline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 103%;
+  word-wrap: normal;
+  text-align: justify;
+  color: aliceblue;
+  line-height: 30px;
+  font-size: 20px;
+}
 .divlideres {
+  margin-top: auto;
   position: relative;
   background-color: #280659;
   width: 100%;
