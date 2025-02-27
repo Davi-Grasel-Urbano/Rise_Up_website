@@ -4,6 +4,10 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 13.3px;
+  padding: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
 }
 
 .container {
@@ -74,7 +78,7 @@ body {
   margin: 2%;
   height: 200px;
   border-radius: 10px;
-  opacity: 0.9;
+  z-index: 1;
 }
 
 .textobanner {
@@ -93,4 +97,81 @@ body {
   color: aliceblue;
   line-height: 30px;
   font-size: 20px;
+}
+
+.divlideres {
+  position: relative;
+  background-color: #280659;
+  width: 100%;
+  height: 1000px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(207, 142, 22);
+  text-align: center;
+  padding-top: 70px;
+  font-size: 20px;
+}
+
+.lideres {
+  position: relative;
+  background-color: #3c1a7d;
+  height: 330px;
+  width: 70%;
+  margin: auto;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  margin-bottom: 80px;
+}
+
+.liderimg {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+.liderimgtwo {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  width: 150px;
+  height: 150px;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  margin-top: 30px;
+  margin-left: 81%;
+  opacity: 0.9;
+}
+
+.textolider {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 100px;
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 25%;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.textolidertwo {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 100px;
+  width: 70%;
+  margin-top: 3%;
+  margin-left: 5%;
+  text-align: justify;
+  line-height: 30px;
 }
